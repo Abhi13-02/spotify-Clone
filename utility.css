@@ -1,0 +1,44 @@
+.border{
+    border: 2px solid red;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.bg-black{
+    background-color: rgb(1, 1, 1);
+    color: white;
+}
+
+.bg-grey{
+    background-color:#121212;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #915b5b; /* Color of the scrollbar thumb on hover */
+}
+/* For Firefox */
+html {
+    scrollbar-width: thin; /* Makes the scrollbar thin */
+    scrollbar-color: #343333 #1d1d1d; /* thumb color and track color */
+}
+
+
+

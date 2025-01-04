@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css" />
+</head>
+
+<body>
+  <div class="container flex bg-black">
+
+
+    <div class="left ">
+      <div class="home bg-grey rounded">
+        <div class="logo invert"><img src="logo.svg" alt=""></div>
+        <ul>
+          <li><img class="invert" src="home.svg" alt="home"> Home</li>
+          <li><img class="invert" src="search.svg" alt="search">Serach</li>
+        </ul>
+        <i id="close" class="ri-close-large-fill"></i>
+      </div>
+      <div class="library bg-grey rounded">
+        <div class="headingLib ">
+          <img class="invert" src="library.svg" alt="lib">
+          <h3>Your Library</h1>
+            <img class="plus invert" src="add.svg" alt="">
+        </div>
+        <div class="songlist">
+          <ul>
+          </ul>
+        </div>
+        <div class="footer">
+          <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+          <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+          <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="right">
+      <div class="rightin bg-grey rounded">
+        <header>
+          <nav>
+            <i class="ri-menu-2-line burger"></i>
+            <div class="arrow">
+              <i class="ri-arrow-left-s-line"></i>
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+          </nav>
+          <div class="buttons">
+            <button class="signup">Sign Up</button>
+            <button class="login">Log In</button>
+          </div>
+        </header>
+        <div class="playlists">
+          <div class="sp">
+            <h3>Spotify Playlists</h3>
+            <i id="zoom" class="ri-zoom-out-line"></i>
+          </div>
+          <div class="cardbox">
+            
+          </div>
+        </div>
+        <div class="playbar">
+         <div class="abovebar">
+              <div class="songinfo">
+              </div>
+            <div class="songbuttons">
+              <i id="previous" class="ri-skip-back-fill"></i>
+              <i id="play" class="ri-play-circle-fill"></i>
+              <i id="next" class="ri-skip-forward-fill"></i>
+            </div>
+            <div class="songtime">
+            </div>
+        </div>
+          <div class="seekbar">
+            <div class="progressionBar"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="app.js"></script>
+  <script src="zoom.js"></script>
+</body>
+
+</html>
